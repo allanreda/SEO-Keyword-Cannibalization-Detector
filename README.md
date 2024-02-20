@@ -1,0 +1,1 @@
+# SEO-Keyword-Cannibalization-Detector
