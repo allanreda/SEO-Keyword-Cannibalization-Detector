@@ -5,7 +5,7 @@ This script is built to solve the SEO challenge of keyword cannibalization by an
 
 ## Functionality  
 Initially, the script authenticates with Google's Search Console API to access search analytics data. It then processes a list of predefined URLs from a local Excel file, removing irrelevant parameters and filtering out non-essential HTML elements to focus on the content meaningful for SEO. The script fetches keyword data for each URL, identifying which keywords have multiple ranking URLs, and therefore are prone to cannibalization. This analysis includes aggregating data on clicks, impressions, CTR, and average positions to understand the impact of keyword overlaps. The final output is a DataFrame that details the cannibalized keywords, their corresponding URLs, and associated search performance metrics. This DataFrame is exported to an Excel file at the end. The final DataFrame looks like this: 
-![image](https://github.com/allanreda/SEO-Keyword-Cannibalization-Detector/assets/89948110/028c3931-4aea-4602-8e95-9442490754ae)
+![image](https://github.com/allanreda/SEO-Keyword-Cannibalization-Detector/assets/89948110/c96f781d-2c11-4c72-8d51-232f26f961f3)
 
 ## Technologies  
 The script is built using:  
